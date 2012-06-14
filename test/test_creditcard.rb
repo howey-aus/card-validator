@@ -1,5 +1,8 @@
+lib_dir = File.dirname(__FILE__) + '/../lib'
+
 require 'test/unit'
-require 'lib/credit_card/credit_card'
+$:.unshift lib_dir unless $:.include?(lib_dir)
+require 'credit_card/credit_card'
 
 class TestCreditCard < Test::Unit::TestCase
   

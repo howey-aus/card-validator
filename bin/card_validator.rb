@@ -1,6 +1,7 @@
 #!/usr/bin/env ruby
 
-require 'lib/credit_card/credit_card'
+$LOAD_PATH.unshift File.dirname(__FILE__) + '/../lib'
+require 'credit_card/credit_card'
 
 message = "Enter a card number (or 'exit' to exit): "
 print message
