@@ -1,4 +1,4 @@
-card_validator - Basic credit card validator as per https://gist.github.com/6ca21baf77a47d72b23c
+card_validator - Basic credit card validator.
 
 ## How to use
 
